@@ -1,0 +1,129 @@
+/** stylechooser **/
+
+#stylechooser { position: fixed; top: 13%; left: -1px; width: 243px; min-height: 0; z-index: 99999; padding: 0; }
+#stylechooser  #styleToggle { position: absolute; top: 2px; right: -47px; cursor: pointer; font-size: 0; color: transparent; width: 47px; height: 44px; margin: 0; border-bottom: 0; }
+#stylechooser  #styleToggle i:before { font-size: 24px; color: #737373; top: 22px; left: 13px; position: absolute; }
+#stylechooser .easyBox.flat { padding: 0 0 0 20px; width: 270px; }
+
+#stylechooser .easyBox { margin: 0; padding: 0; background: #f2f2f2; }
+
+#stylechooser hr { margin: 0; }
+#stylechooser label { margin-bottom: 20px; }
+
+#stylechooser .mkSpace {
+    padding: 10px 20px;
+}
+#stylechooser .demoList { margin: 0 0 0 -10px; list-style: none; }
+#stylechooser .demoList li { margin: 0 0 10px 10px; float: left; position: relative; }
+
+#stylechooser .demoColor { display: block; width: 25px; height: 25px; background: transparent; }
+#stylechooser .demoActive:before {
+    content: "\f00c";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    font: 12px/1em 'FontAwesome';
+    font-style: normal;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .75);
+}
+
+#stylechooser .light { margin: 0; line-height: 46px; }
+#stylechooser .btn.btn-small { margin-bottom: 5px; }
+
+@media (max-width: 767px) {
+    #stylechooser {
+        display: none !important;
+    }
+}
+
+html { padding-top: 0 !important; }
+
+.source-preview.sticky.left.vertical {
+    margin-left: 1px;
+}
+
+#stylechooser #styleToggle {
+    padding-left: 4px;
+}
+
+body.boxed {
+    background: transparent url("../../assets/img/patterns/06.jpg");
+}
+
+.buttons-and-typography .btn {
+    margin-bottom: 10px;
+}
+
+.buttons-and-typography #toTop {
+    margin-bottom: 0;
+}
+
+/* demo hover fix */
+
+
+.parallax a:hover {
+  color: #fff !important;
+}
+.latest-posts a.title:hover {
+	color: #4C4C4C !important;
+}
+
+.parallax .work a:hover {
+  color:#4C4C4C !important;
+}
+
+.parallax.darkText a:hover {
+  color: #4c4c4c !important;
+}
+#MainNav .navbar-inner .container_civica .btn-navbar:hover {
+  background-color: #262626 !important;
+}
+
+#MainNav .arrow:hover {
+  background: #262626 !important;
+}
+.work .full-view nav a:hover {
+  background-color: #262626 !important;
+}
+.work-nav a:hover {
+  background-color: #262626 !important;
+}
+.parallax.darkText .person-box a:hover {
+  color: inherit !important;
+}
+form input[type="submit"]:hover,
+form input[type="button"]:hover {
+  background: #262626 !important;
+}
+.breadcrumbs .breadcrumbs-inner a:hover {
+  color: #4C4C4C !important;
+}
+.breadcrumbs .breadcrumbs-inner a:hover {
+  color: #4C4C4C !important;
+}
+#BlogBody #Content nav.pager .prev:hover,
+#BlogBody #Content nav.pager .next:hover {
+  background-color: #262626 !important;
+}
+.lb-data .lb-close:hover {
+  background-color: #262626 !important;
+}
+.post-media.flexslider .flex-direction-nav .flex-prev:hover,
+.post-media.flexslider .flex-direction-nav .flex-next:hover {
+  background-color: #262626 !important;
+}
+
+.flexslider .flex-direction-nav .flex-prev:hover,
+.flexslider .flex-direction-nav .flex-next:hover {
+  background-color: #262626 !important;
+}
+.bx-wrapper .bx-controls-direction .bx-prev:hover {
+  background-color: #262626 !important;
+}
+.bx-wrapper .bx-controls-direction .bx-next:hover {
+  background-color: #262626 !important;
+}
+.tabs.type2 .nav li.active a {
+	background: #262626 !important;
+}
