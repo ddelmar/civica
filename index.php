@@ -28,77 +28,6 @@
 <script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/selectize.min.js'></script>
 <link rel="shortcut icon" href="/civica/wp-content/themes/nonus/assets/img/favicon.png" />
 <style type="text/css" media="all">
-/* text-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px; */
-/* blue #2d91ff */
-logo {
-	width:300px;
-	height:100px;
-	display:block;
-	text-indent: -999px;
-	overflow: hidden;
-	background: url(/civica/wp-content/themes/nonus/assets/img/civicaio_logo_white.png) center top no-repeat;
-	background-size: 100% auto;
-	text-align: center;
-	margin: 0 auto;
-}		
-
-h1 {
-	font-size: 1em;
-}																																																	
-
-#about * {
-	color: #fff;
-}
-
-#about p {
-	-webkit-column-count:3; /* Chrome, Safari, Opera */
-	-moz-column-count:3; /* Firefox */
-	column-count:3;
-}
-
-ul.products {
-	float: left;
-}
-
-ul.products li {
-	list-style-type:none;
-	width:32%;
-	float: left;
-	margin: 0;
-}
-
-ul.products li a {
-	width: 90%;
-	background: #fff;
-	display: block;
-	padding: 4%;
-	margin: 1% 0;
-	-webkit-transition: none;
-}
-
-ul.products li a:hover {
-	background: #2d91ff;	
-}
-
-ul.products li a:hover * {
-	color: white;
-}
-
-/*desktop */
-ul.products {
-}
-
-section.flexslider {
-	padding: 0;
-}
-
-section#contact {
-	padding: 43px 0 0px;
-}
-
-section#works {
-	padding: 43px 0 35px 0;
-}
 	
 </style>	<link rel="canonical" href="http://nonus.single.themewoodmen.com/">
 <meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.5" />
@@ -152,97 +81,12 @@ section#works {
 			<p>Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. </p>
 			</div></div></section>
 			
-<section id="works" class="parallax" style="background-image: url(/civica/wp-content/themes/nonus/assets/img/pattern.jpg)">
+<section id="works" class="parallax" style="background:#f3f3f3; )">
 							            
 <section class="row-fluid"><div class="container"><h2>Products we've built</h2><div class="row-fluid">
 <div id="CTWork" class="work">
 
-
-<div class="container">
-	<section class="preview flexslider row-fluid">
-		<ul class="products">
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			<li>
-				<a href="http://google.com">
-					<h4>Product 1</h4>
-					</p>Here's some info on the product.</p>
-				</a>
-			</li>
-			
-		</ul>
-		<!--
-				<ul class="slides span12">
-						<li>
-							<ul class="row-fluid">
-								<li class="product">
-									<a href="http://google.com">
-										<div>
-										<h4>Product title</h4>
-										<p>Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. </p>
-										</div>
-									</a>
-								</li>
-							</ul>
-							<ul>
-								<li class="span4">
-									<a href="http://nonus.single.themewoodmen.com/portfolio/work-15/?ctWorkAjax=1">
-										<img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-15-300x220.jpg" alt="">
-									</a>
-								</li>
-								
-								<li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-14/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-14-300x220.jpg" alt=""></a></li></ul><ul class="row-fluid"><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-13/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-13-300x220.jpg" alt=""></a></li><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-12/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-12-300x220.jpg" alt=""></a></li><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-11/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-11-300x220.jpg" alt=""></a></li></ul></li><li><ul class="row-fluid"><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-10/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-10-300x220.jpg" alt=""></a></li><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-9-2/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-9-300x220.jpg" alt=""></a></li><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-8/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-8-300x220.jpg" alt=""></a></li></ul><ul class="row-fluid"><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-7/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-7-300x220.jpg" alt=""></a></li><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-6/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-6-300x220.jpg" alt=""></a></li><li class="span4"><a href="http://nonus.single.themewoodmen.com/portfolio/work-5/?ctWorkAjax=1"><img src="http://nonus.single.themewoodmen.com/wp-content/uploads/2013/09/work-large-5-300x220.jpg" alt=""></a></li></ul></li></ul>
-		</section>
-		 <section class="full-view row-fluid">
-			 -->
-		</section>
-		</div>
+<?php require_once("products.php"); ?>
 					        </div>
 					        
 </div></div></section>

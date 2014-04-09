@@ -29,129 +29,119 @@
 /* ======================== */
 /* === START EDIT HERE ==== */
 @import url(http://fonts.googleapis.com/css?family=Lato:900|Bitter);
-/* == WIDGETS == */
-/* =========================
- * ========= BLOG ==========
- * ========================= */
-/* ========= 404 ========== */
-/* =========================
- * ====== COMPONENTS ======= */
-/* ======= BUTTONS ======= */
-/* ======= BLOCKQUOTE ======= */
-/* ======= BUTTON BOX ======= */
-/* ======= DROPCAP ======= */
-/* ======= EMPHASIS ======= */
-/* ======== LISTS ========= */
-/* ======== TABLE ========= */
-/* ===== PROGRESS BAR ===== */
-/* ==== RADIAL PROGRESS === */
-/* ====== PRICE BOX ======= */
-/* if .price-boxes are inside .price-table they acts as       *
- * table cells, they all get equal width. otherwise they are  *
- * just a block element, getting 100% of its parent element   */
-/* ========= TABS ========= */
-/* ====== ACCORDION ====== */
-/* ===== TESTIMONIAL ====== */
-/* ===== TESTIMONIAL ====== */
-/* =========================
- * ==== PORTFOLIO PAGE ===== */
-/* =NATIVE ISOTOPE STYLES= */
-/* ===== LATEST POSTS ===== */
-/* ==== GENERAL WIDGETS ==== */
-/* ===== SEARCH WIDGET ===== */
-/* === CATEGORIES WIDGET === */
-/* === NEWSLETTER WIDGET === */
-/* ====== TEXT WIDGET ====== */
-/* ==== CALENDAR WIDGET ==== */
-/* ===== SOCIAL WIDGET ===== */
-/* ===== PHOTO STREAM ====== */
-/* === GENERAL WIDGET === */
-/* ======================== */
-/* ======== SECTIONS ====== */
-/* =========================
- * ======== HEADER ========= */
-/* =========================
- * ======= NAVIGATION ====== */
-/* =========================
- * ======== WORKS ========== */
-/* ======= SKILLS ========= */
-/* =========================
- * ========= INFO ========== */
-/* ======== TEAM ========== */
-/* =========================
- * ====== BLOG LIST ======== */
-/* =========================
- * ======= CONTACT ========= */
-/* =========================
- * ====== FORM STYLES ====== */
-/* ====== TWITTER ========== */
-/* =========================
- * ======= FOOTER ========== */
-/* =========================== */
-/* ========== BLOG =========== */
-/* =========================== */
-/* ======================== */
-/* ===== BREADCRUMBS ====== */
-/* ======================== */
-/* ======== HEADER ======== */
-/* ======================== */
-/* ====== BLOG PAGE ======= */
-/* ========= 404 ========== */
-/* =========================== */
-/* ========== OTHER ========== */
-/* =========================== */
-/* ======================== */
-/* ========= misc. ======== */
-/* hidden text for icon-only buttons etc */
-/* ======================== */
-/* ======= lightbox ======= */
-/* =========================
- * ===== flexslider ======== */
-/** graph-chart **/
-/**
- * BxSlider v4.0 - Fully loaded, responsive content slider
- * http://bxslider.com
- *
- * Written by: Steven Wanderski, 2012
- * http://stevenwanderski.com
- * (while drinking Belgian ales and listening to jazz)
- *
- * CEO and founder of bxCreative, LTD
- * http://bxcreative.com
- */
-/* iCheck plugin Square skin, orange
------------------------------------ */
-/**
- * selectize.css (v0.8.1)
- * Copyright (c) 2013 Brian Reavis & contributors
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
- * file except in compliance with the License. You may obtain a copy of the License at:
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
- * ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
- *
- * @author Brian Reavis <brian@thirdroute.com>
- */
-/* --------------------------------------------------------------
 
-   Basic WordPress Blog Styles
 
--------------------------------------------------------------- */
-/* Images
--------------------------------------------------------------- */
-/*sticky posts more visible*/
-/* Pullquotes */
-/* wp widget lists */
-/* search widget */
-/* nav menu widget */
-/*prevent from long names*/
-/******** additional styles */
-/** graph-chart **/
-/* gmap */
+/* text-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px; */
+/* blue #2d91ff */
+
+ul, ol {margin: 0; padding: 0; }
+
+logo {
+	width:300px;
+	height:100px;
+	display:block;
+	text-indent: -999px;
+	overflow: hidden;
+	background: url(/civica/wp-content/themes/nonus/assets/img/civicaio_logo_white.png) center top no-repeat;
+	background-size: 100% auto;
+	text-align: center;
+	margin: 0 auto;
+}		
+
+h1 {
+	font-size: 1em;
+}																																																	
+
+#about * {
+	color: #fff;
+}
+
+#about p {
+	-webkit-column-count:3; /* Chrome, Safari, Opera */
+	-moz-column-count:3; /* Firefox */
+	column-count:3;
+}
+
+ul.products {
+	float: left;
+}
+
+ul.products li {
+	list-style-type:none;
+	width:33%;
+	float: left;
+	margin: 0;
+}
+
+ul.products li a {
+	width: 90%;
+	background: #fff;
+	display: block;
+	padding: 4%;
+	margin: 1% 0;
+	-webkit-transition: none;
+}
+
+ul.products li a:hover {
+	background: #2d91ff;	
+}
+
+ul.products li a:hover,
+ul.products li a:hover * {
+	color: white;
+}
+
+/*desktop */
+ul.products {
+}
+
+section.flexslider {
+	padding: 0;
+}
+
+section#contact {
+	padding: 43px 0 0px;
+}
+
+section#works {
+	padding: 43px 0 35px 0;
+}
+
+.entry-content {
+	margin: 0 auto 60px 0;
+}
+
+.entry-header h1 {
+	margin: 4em 0;
+	font-size: 1.8em;
+}
+
+#nav_page {
+	width: 100%;
+	background: #ABD2E3;
+	float: left;
+	display: block;
+}
+
+.page-template-default logo {
+	width: 120px;
+	height: auto;
+	margin: 20px auto;
+}
+
+.page-template-default > .products {
+	border-top: 1px solid #efefef;
+	padding: 50px 0;
+	/*
+	background: #f3f3f3;
+	background-image: url(/civica/wp-content/themes/nonus/assets/img/pattern.jpg);
+	background-repeat: no-repeat;
+	*/
+}
+
+/*
+================================================
+*/
 .clearfix {
   *zoom: 1;
 }
@@ -301,7 +291,6 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #005580;
   text-decoration: underline;
 }
 .img-rounded {
@@ -1128,7 +1117,7 @@ h4 small {
 ul,
 ol {
   padding: 0;
-  margin: 0 0 10px 25px;
+/*  margin: 0 0 10px 25px; */
 }
 ul ul,
 ul ol,
@@ -9698,7 +9687,6 @@ blockquote.testimonial .author .name {
   margin-left: 12px;
 }
 blockquote {
-  border-left-color: #2d91ff;
   padding: 10px 0 10px 19px;
   margin: 23px 0;
 }
@@ -12088,7 +12076,6 @@ p:first-child {
   background: #fff url("../img/dots.png") repeat-x top;
 }
 .faqMenu ul li > a:hover {
-  color: #2D91FF;
   background-color: #fff;
 }
 .faqMenu ul li.active a {
