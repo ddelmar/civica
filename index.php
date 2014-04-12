@@ -78,7 +78,9 @@
 			<section id="about" class="row-fluid  section-emphasis animated" data-fx="fadeInUp">
 				<div class="container">
 			<h2>What we do</h2><div class="row-fluid">
-			<p>Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. Here's some placeholder copy. </p>
+			<p>	We build web products that do public good. We tend to partner most often with government agencies and with social change-makers to advance a mutual vision of technology as a tool for public progress. This can mean teaching underserved teens some basic web design fundamentals, as we do in <a href="http://resilientcoders.org" title="Resilient Coders">Resilient Coders.</a> Or making public data actually available to the public, as we've done in a few states with <a href="http://electionstats.com" title="Election Stats">ElectionStats.com.</a> We love solving hard problems; particularly those that matter most to the community.<br /><br />
+
+				Start a project with us. Send us an email at <a href="mailto:info@civica.io">info@civica.io</a> </p>
 			</div></div></section>
 			
 <section id="works" class="parallax" style="background:#f3f3f3; )">
@@ -93,30 +95,31 @@
 
 
 								</section>
-<section id="contact" class="parallax" style="background-image: url(http://nonus.themewoodmen.com/wp-content/uploads/2013/09/background-image-2.jpg)">
-							            
-<section class="row-fluid"><div class="container"><h2>Info</h2><div class="row-fluid">
-<p>
-                    Pellentesque id nunc tempus metus gravida luctus id sit amet ipsum. Fusce eleifend ipsum vel odio hendrerit eu auctor nibh dictum. Vivamus facilisis blandit ante id ultricies. Suspendisse id metus elit. Nullam odio leo, ornare ac porta et, suscipit non lectus.<br />
-</p>
-</div></div></section>
-<section class="row-fluid  section-emphasis-2 animated" data-fx="fadeInLeft"><div class="container"><h3>The team</h3><div class="row-fluid">
-<div class="span4">
-<div class="person-box">
-			                    <img src="/civica/wp-content/themes/nonus/assets/img/adam.jpg" alt="Adam Friedman">
-			                    <h4>Adam Friedman</h4>
-			                    <a href="mailto:adam.friedman@civica.io" target="_blank" data-toggle="tooltip" title="Email Adam Friedman">adam.friedman@civica.io</a>
-			                </div>
-</div>
-<div class="span4">
-<div class="person-box">
-			                    <img src="/civica/wp-content/themes/nonus/assets/img/del.jpg" alt="David Delmar">
-			                    <h4>David Delmar</h4>
-			                    <a href="mailto:david.delmar@civica.io" target="_blank" data-toggle="tooltip" title="Email David Delmar">david.delmar@civica.io</a>
-			                </div>
-</div>
+								
 
-</div></div></section>
+	
+<section id="contact" class="row-fluid  section-emphasis-2 animated parallax" data-fx="fadeInLeft">
+	<div class="container">
+		<h2>Contact Us</h2>
+			<div class="person-box">
+			     <img src="/civica/wp-content/themes/nonus/assets/img/adam.jpg" alt="Adam Friedman">
+			     <h4>Adam Friedman</h4>
+			     <a href="mailto:adam.friedman@civica.io" target="_blank" data-toggle="tooltip" title="Email Adam Friedman">adam.friedman@civica.io</a>
+			
+				<p>
+					Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. 
+				</p>
+		 	</div>
+			<div class="person-box">
+			     <img src="/civica/wp-content/themes/nonus/assets/img/del.jpg" alt="Adam Friedman">
+			     <h4>David Delmar</h4>
+			     <a href="mailto:david.delmar@civica.io" target="_blank" data-toggle="tooltip" title="Email Adam Friedman">david.delmar@civica.io</a>
+				<p>
+					Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. 
+				</p>
+		 	</div>
+	</div><!-- /container -->
+</section>
 
 <div class="container">
 
@@ -130,7 +133,12 @@
 
 		<footer>
  <h4>
-	    © 2014 Civica    </h4>
+	    &copy;<script type="text/javascript">
+		      now = new Date
+		      theYear=now.getYear()
+		      if (theYear < 1900)
+		      theYear=theYear+1900
+		      document.write(theYear)</script> Civica    </h4>
 </footer>	</div>
 
 	<!--footer-->

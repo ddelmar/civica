@@ -13,7 +13,9 @@
  */
 
 get_header(); ?>
-
+<div id="logo_square">
+	<a href="/">&nbsp;</a>
+</div>
 		<div id="primary" class="container">
 
 				<?php while ( have_posts() ) : the_post(); ?>
@@ -26,3 +28,15 @@ get_header(); ?>
 <div class="products">
 		<?php require_once("products.php"); ?>
 </div>
+
+<footer>
+<h4>
+&copy;<script type="text/javascript">
+      now = new Date
+      theYear=now.getYear()
+      if (theYear < 1900)
+      theYear=theYear+1900
+      document.write(theYear)</script> Civica    </h4>
+</footer>
+</body>
+	</html>

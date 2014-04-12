@@ -37,8 +37,8 @@
 ul, ol {margin: 0; padding: 0; }
 
 logo {
-	width:300px;
-	height:100px;
+	width:230px;
+	height:40px;
 	display:block;
 	text-indent: -999px;
 	overflow: hidden;
@@ -100,11 +100,12 @@ section.flexslider {
 }
 
 section#contact {
-	padding: 43px 0 0px;
+	padding: 43px 0 8px 0;
+	background: #fff;
 }
 
 section#works {
-	padding: 43px 0 35px 0;
+	padding: 43px 0 0px 0;
 }
 
 .entry-content {
@@ -137,6 +138,16 @@ section#works {
 	background-image: url(/civica/wp-content/themes/nonus/assets/img/pattern.jpg);
 	background-repeat: no-repeat;
 	*/
+}
+
+.person-box {
+	float: left;
+	width: 50%;
+}
+
+.halfwidth {
+	float: left;
+	width:100%;
 }
 
 /*
@@ -8967,7 +8978,15 @@ a.badge:hover {
     position: static;
   }
 }
-@media (max-width: 979px) {
+
+/*
+::::::::::::::::::
+::: TABLET MAX 766
+::::::::::::::::::
+*/
+
+@media (max-width: 766px) {
+
   body {
     padding-top: 0;
   }
@@ -9129,6 +9148,7 @@ a.badge:hover {
     padding-right: 10px;
   }
 }
+
 @media (min-width: 980px) {
   .nav-collapse.collapse {
     height: auto !important;
@@ -10531,7 +10551,7 @@ section h3 {
   text-transform: uppercase;
   text-align: center;
   line-height: 1em;
-  margin: 0 0 33px;
+  margin: 0 0 45px 0;
 }
 section section {
   margin: 55px 0 -55px;
@@ -10544,8 +10564,6 @@ section > section:first-child {
   background: #333;
 }
 .section-emphasis-2 {
-  background: #000;
-  background: rgba(0,0,0,0.7);
 }
 .parallax {
   background-color: #999999;
@@ -10558,10 +10576,8 @@ section > section:first-child {
   background-size: cover;
 }
 .parallax p {
-  color: #fff;
 }
 .parallax a:hover {
-  color: #fff;
 }
 .parallax .icon-box h4 {
   color: #fff;
@@ -10591,6 +10607,7 @@ section > section:first-child {
 }
 .main-header h1 {
   color: #fff;
+font-size:.9em;
 }
 .main-header .slogan {
   width: 100%;
@@ -10639,6 +10656,36 @@ section > section:first-child {
 #MainNav .navbar-inner .container {
   width: 100%;
 }
+#logo_square a {
+	height: 50px;
+	width:50px;
+	position: absolute;
+	  display: block;
+	  background: #262626;
+	  border: none;
+	  border-radius: 0;
+	  margin: 0px;
+	  padding: 0;
+	  -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+	  -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+	  -webkit-transition: background .3s ease;
+	  -moz-transition: background .3s ease;
+	  -o-transition: background .3s ease;
+	  transition: background .3s ease;
+	  -webkit-transition: background .3s ease;
+	  -moz-transition: background .3s ease;
+	  -o-transition: background .3s ease;
+	  transition: background .3s ease;
+}
+
+#logo_square a:hover {
+	background-color: #9FC8DF;
+}
+
 #MainNav .navbar-inner .container .btn-navbar {
   width: 30px;
   height: 30px;
@@ -11041,7 +11088,6 @@ section > section:first-child {
   margin-right: 10px;
 }
 .parallax .person-box h4 {
-  color: #fff;
 }
 .parallax.darkText .person-box h4 {
   color: inherit;
@@ -11360,8 +11406,7 @@ form.contactForm label.info {
   color: inherit;
 }
 footer {
-  padding: 43px 0 55px;
-  background: #0d0d0d;
+  padding: 83px 0 55px;
   position: relative;
   z-index: 1;
 }
@@ -12852,6 +12897,11 @@ section.section-emphasis h1 {
 .navbar-inner {
   filter: none;
 }
+/*
+::::::::::::::::::::::::
+:::::: TABLET 768 - 1024
+::::::::::::::::::::::::
+*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .parallax {
     background-position: 0 0 !important;
@@ -12868,12 +12918,14 @@ section.section-emphasis h1 {
     width: 100%;
     margin: 0;
   }
+/*
   #MainNav.stick {
     position: static !important;
   }
   #MainNav.stick + section {
     margin-top: 0 !important;
   }
+*/
   body {
     padding: 0;
   }
@@ -12894,7 +12946,9 @@ section.section-emphasis h1 {
     width: auto;
   }
   #MainNav.navbar .navbar-inner .container .btn-navbar {
+	/*
     display: block;
+*/
   }
   #MainNav.navbar .navbar-inner .container .nav li {
     display: block;
@@ -13011,6 +13065,12 @@ section.section-emphasis h1 {
     margin-right: 0;
   }
 }
+
+/*
+::::::::::::::::::::::::
+:::::: MAX 767 ::::::
+::::::::::::::::::::::::
+*/
 @media (max-width: 767px) {
   .container .row-fluid [class*="span"] {
     margin-top: 20px;
@@ -13079,6 +13139,12 @@ section.section-emphasis h1 {
     border-color: transparent transparent #ff2d2d transparent;
   }
 }
+
+/*
+::::::::::::::::::::::::
+:::::: MOBILE ::::::
+::::::::::::::::::::::::
+*/
 @media (max-width: 500px) {
   form.contactForm label {
     float: none;
@@ -13098,7 +13164,21 @@ section.section-emphasis h1 {
     position: static;
     display: block;
   }
+.navbar-inner, #MainNav .arrow {display:none;}
+	#about p {
+		-webkit-column-count:1; /* Chrome, Safari, Opera */
+		-moz-column-count:1; /* Firefox */
+		column-count:1;
+	}
+	ul.products li, .person-box {width:100%; }
 }
+
+/*
+::::::::::::::::::::::::
+:::::: TABLET MAX 1024
+::::::::::::::::::::::::
+*/
+
 @media only screen and (max-width: 1024px) and (orientation: portrait) {
   .videoContainer.height100 {
     height: auto;
