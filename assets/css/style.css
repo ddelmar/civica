@@ -42,7 +42,7 @@ logo {
 	display:block;
 	text-indent: -999px;
 	overflow: hidden;
-	background: url(/civica/wp-content/themes/nonus/assets/img/civicaio_logo_white.png) center top no-repeat;
+	background: url(http://civica.io/wp-content/themes/nonus/assets/img/civicaio_logo_white.png) center top no-repeat;
 	background-size: 100% auto;
 	text-align: center;
 	margin: 0 auto;
@@ -102,6 +102,10 @@ section.flexslider {
 section#contact {
 	padding: 43px 0 8px 0;
 	background: #fff;
+}
+
+section#contact p {
+	padding: 0 2em 0 0;
 }
 
 section#works {
@@ -10275,7 +10279,7 @@ blockquote.testimonial .author:before {
   margin: 0;
 }
 .latest-posts > li {
-  background: url(../img/dots-2.png) repeat-x top;
+  background: url(http://civica.io/wp-content/themes/nonus/assets/img/dots-2.png) repeat-x top;
 }
 .latest-posts > li:first-child {
   background: none;
@@ -10286,7 +10290,7 @@ blockquote.testimonial .author:before {
 }
 .latest-posts-widget > li {
   line-height: 1.714em;
-  background: url(../img/dots.png) repeat-x top;
+  background: url(http://civica.io/wp-content/themes/nonus/assets/img/dots.png) repeat-x top;
   padding: 13px 0 9px;
 }
 .latest-posts-widget > li:first-child {
@@ -10347,7 +10351,7 @@ footer.widget {
 .categories-widget ul li {
   padding: 0;
   line-height: 40px;
-  background: url(../img/dots-2.png) repeat-x bottom;
+  background: url(http://civica.io/wp-content/themes/nonus/assets/img/dots-2.png) repeat-x bottom;
   border: none;
 }
 .categories-widget ul li a {
@@ -10476,7 +10480,7 @@ footer.widget {
 .widget.widget_meta .widget-inner ul li {
   padding: 0;
   line-height: 40px;
-  background: url(../img/dots-2.png) repeat-x bottom;
+  background: url(http://civica.io/wp-content/themes/nonus/assets/img/dots-2.png) repeat-x bottom;
   border: none;
 }
 .widget.widget_recent_entries .widget-inner ul li a,
@@ -12220,7 +12224,7 @@ p:first-child {
 }
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(../img/loading.gif) center center no-repeat #fff;
+  background: url(http://civica.io/wp-content/themes/nonus/assets/img/loading.gif) center center no-repeat #fff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -12521,7 +12525,7 @@ p:first-child {
   padding: 0;
   width: 22px;
   height: 22px;
-  background: url(../img/icheck-bg.png) no-repeat;
+  background: url(http://civica.io/wp-content/themes/nonus/assets/img/icheck-bg.png) no-repeat;
   border: none;
   cursor: pointer;
   float: left;

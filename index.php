@@ -14,19 +14,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	
-	<link rel="stylesheet" href="/civica/wp-content/themes/nonus/assets/css/jplayer.css">
-<link rel="stylesheet" href="/civica/wp-content/themes/nonus/assets/css/prettyPhoto.css">
-<link rel="stylesheet" href="/civica/wp-content/themes/nonus/assets/css/styles.css">
-<link rel="stylesheet" href="/civica/wp-content/themes/nonus/assets/css/settings.css">
-<link rel="stylesheet" href="/civica/wp-content/themes/nonus/assets/css/captions.css">
+	<link rel="stylesheet" href="http://civica.io/wp-content/themes/nonus/assets/css/jplayer.css">
+<link rel="stylesheet" href="http://civica.io/wp-content/themes/nonus/assets/css/prettyPhoto.css">
+<link rel="stylesheet" href="http://civica.io/wp-content/themes/nonus/assets/css/styles.css">
+<link rel="stylesheet" href="http://civica.io/wp-content/themes/nonus/assets/css/settings.css">
+<link rel="stylesheet" href="http://civica.io/wp-content/themes/nonus/assets/css/captions.css">
+
+<!-- 
 <link rel="stylesheet" href="/civica/wp-content/themes/nonus/assets/css/style.css">
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.themepunch.revolution.min.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.fitvids.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.icheck.min.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/selectize.min.js'></script>
-<link rel="shortcut icon" href="/civica/wp-content/themes/nonus/assets/img/favicon.png" />
+-->
+
+<link rel="stylesheet" href="http://civica.io/wp-content/themes/nonus/assets/css/style.css">
+
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.themepunch.revolution.min.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.icheck.min.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/selectize.min.js'></script>
+<link rel="shortcut icon" href="http://civica.io/wp-content/themes/nonus/assets/img/favicon.png" />
 <style type="text/css" media="all">
 	
 </style>	<link rel="canonical" href="http://nonus.single.themewoodmen.com/">
@@ -34,14 +40,14 @@
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
  <!--[if lt IE 9]>
- <script src="/civica/wp-content/themes/nonus/assets/js/html5shiv.js"></script>
+ <script src="http://civica.io/wp-content/themes/nonus/assets/js/html5shiv.js"></script>
  <![endif]-->
 </head>
 
 		<body class="home page patnone top-navbar cssAnimate" >
 
 	<div id="boxedWrapper">
-			<header id="MainHeader" class="main-header parallax" style="background-image: url(/civica/wp-content/themes/nonus/assets/img/urban_blue.JPG)">
+			<header id="MainHeader" class="main-header parallax" style="background-image: url(http://civica.io/wp-content/themes/nonus/assets/img/urban_blue.JPG)">
 							            
 <div class="container">
         <section class="row-fluid">
@@ -55,7 +61,7 @@
 
 								</header><nav id="MainNav" class="navbar sticky">
     <a href="#MainNav" class="arrow">
-    	<img src="/civica/wp-content/themes/nonus/assets/img/arrow_down.png" />
+    	<img src="http://civica.io/wp-content/themes/nonus/assets/img/arrow_down.png" />
     </a>
 
     <div class="navbar-inner">
@@ -85,7 +91,7 @@
 			
 <section id="works" class="parallax" style="background:#f3f3f3; )">
 							            
-<section class="row-fluid"><div class="container"><h2>Products we've built</h2><div class="row-fluid">
+<section class="row-fluid"><div class="container"><h2>Products</h2><div class="row-fluid">
 <div id="CTWork" class="work">
 
 <?php require_once("products.php"); ?>
@@ -102,20 +108,20 @@
 	<div class="container">
 		<h2>Contact Us</h2>
 			<div class="person-box">
-			     <img src="/civica/wp-content/themes/nonus/assets/img/adam.jpg" alt="Adam Friedman">
+			     <img src="http://civica.io/wp-content/themes/nonus/assets/img/adam.jpg" alt="Adam Friedman">
 			     <h4>Adam Friedman</h4>
 			     <a href="mailto:adam.friedman@civica.io" target="_blank" data-toggle="tooltip" title="Email Adam Friedman">adam.friedman@civica.io</a>
 			
 				<p>
-					Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. 
+					Adam is a data activist. If the public owns it, the public should be able engage with it, in a way that is usable and meaningful. He brings to Civica his passion for transparency and government reform.
 				</p>
 		 	</div>
 			<div class="person-box">
-			     <img src="/civica/wp-content/themes/nonus/assets/img/del.jpg" alt="Adam Friedman">
+			     <img src="http://civica.io/wp-content/themes/nonus/assets/img/del.jpg" alt="Adam Friedman">
 			     <h4>David Delmar</h4>
-			     <a href="mailto:david.delmar@civica.io" target="_blank" data-toggle="tooltip" title="Email Adam Friedman">david.delmar@civica.io</a>
+			     <a href="mailto:david.delmar@civica.io" target="_blank" data-toggle="tooltip" title="Email David Delmar">david.delmar@civica.io</a>
 				<p>
-					Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. Here's some copy. 
+					David believes that technology is one of our generation's social parity issues. Its education, and its deployment to build a socially-conscious culture can help bridge the opportunity gap in a way that's never existed before.
 				</p>
 		 	</div>
 	</div><!-- /container -->
@@ -142,24 +148,24 @@
 </footer>	</div>
 
 	<!--footer-->
-	<link rel="stylesheet" href="/civica/wp-content/themes/nonus/assets/css/animate.css">
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.form.min.js'></script>
+	<link rel="stylesheet" href="http://civica.io/wp-content/themes/nonus/assets/css/animate.css">
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.form.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var _wpcf7 = {"loaderUrl":"\/wp-content\/themes\/nonus\/theme\/assets\/img\/loading.gif","sending":"Sending ...","cached":"1"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/scripts.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/selectnav.min.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/modernizr.custom.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/plugins.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/main.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.bxslider.min.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.appear.min.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.parallax-1.1.3.js'></script>
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.viewport.min.js'></script>
-<!-- <script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/jquery.flexslider-min.js'></script> -->
-<script type='text/javascript' src='/civica/wp-content/themes/nonus/assets/js/lightbox-2.6.min.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/selectnav.min.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/modernizr.custom.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/plugins.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/main.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.bxslider.min.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.appear.min.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.parallax-1.1.3.js'></script>
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.viewport.min.js'></script>
+<!-- <script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/jquery.flexslider-min.js'></script> -->
+<script type='text/javascript' src='http://civica.io/wp-content/themes/nonus/assets/js/lightbox-2.6.min.js'></script>
 <script type="text/javascript">
 jQuery(window).load(function () {
                     /* parallax effect */
@@ -242,16 +248,16 @@ function carouselFlexsliderInit() {
 	
 
 <!-- switcher 
-<script src="/civica/wp-content/themes/nonus/theme/demo/js/demo.js"></script>
-<link rel="stylesheet" type="text/css" href="/civica/wp-content/themes/nonus/assets/css/demo.css">
+<script src="http://civica.io/wp-content/themes/nonus/theme/demo/js/demo.js"></script>
+<link rel="stylesheet" type="text/css" href="http://civica.io/wp-content/themes/nonus/assets/css/demo.css">
 
 -->
 
 </div>
 <!-- frame -->
 
-<link href="/civica/wp-content/themes/nonus/assets/css/jquery.qtip.min.css" media="all" rel="stylesheet" type="text/css">
-<script src="/civica/wp-content/themes/nonus/assets/js/jquery.qtip.min.js"></script>
+<link href="http://civica.io/wp-content/themes/nonus/assets/css/jquery.qtip.min.css" media="all" rel="stylesheet" type="text/css">
+<script src="http://civica.io/wp-content/themes/nonus/assets/js/jquery.qtip.min.js"></script>
 
 
 
